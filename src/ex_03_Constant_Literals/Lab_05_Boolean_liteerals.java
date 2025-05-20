@@ -1,13 +1,13 @@
 package ex_03_Constant_Literals;
 
-public class Lab_05 {
+public class Lab_05_Boolean_liteerals {
     public static void main(String[] arg) {
-        boolean is_married = 'false';
-        boolean is_married = 'true';
+       // boolean is_married = "no";
+      //  boolean is_sharuk_married ="true";
         // First Type - Boolean values true or false
 
 //    Literals - integer type decimal system.
-        int age = 25;// Binary Literals// decimsl sysyem -Y,base will be 10
+        int age = 25;// Binary Literals// decimal system -Y,base will be 10
         //
         int marks_ece =-1; //store 1's compliments  (ECE)
        int lambo =0;
@@ -15,7 +15,7 @@ public class Lab_05 {
         int binary_num = 0b1010;
 
         // octal  base? -> 8
-        int octal =0101;//  0101 = (0* 8*3)+ (1* 8*2)+(0*8) + (1*8*0)=65
+        int octal =0101;//  0101 = (0 × 8³) + (1 × 8²) + (0 × 8¹) + (1 × 8⁰) = 65
         // *1,2,3 - to the power
 
 
