@@ -7,7 +7,7 @@ public class Lab_051_Switch_JDK_13_Concept {
         int itemcode = 002;
         switch (itemcode) {
             case 001, 002, 004:
-                ;
+
 
                 System.out.println("Item is Elecronic");
                 break;
