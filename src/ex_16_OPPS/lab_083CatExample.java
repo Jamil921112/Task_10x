@@ -14,7 +14,7 @@ public class lab_083CatExample {
      String name;
 
 
-     void running(){
+     void running() {
          System.out.println("Running");
      }
      }
