@@ -7,7 +7,7 @@ public class ATB_person {
     int age;
     String gender ;
     int salary;
-    long phone ;
+    long phone;
     String address ;
 
     // Behaviour
