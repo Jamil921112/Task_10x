@@ -10,6 +10,7 @@ public class Lab_098BankApp {
         boolean isCashier = true;
         amit.setBal(1000, isCashier);
         System.out.println(amit.getBal() );
+        System.out.println("BankName");
 
 
 
@@ -24,6 +25,7 @@ public class Lab_098BankApp {
 
          private String name;
        private   long bal;
+       public   String BankName = "ICICI";
           // constructer set
 
          public ICICBank(long bal, String name) {
