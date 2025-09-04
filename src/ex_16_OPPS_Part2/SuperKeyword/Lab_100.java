@@ -19,4 +19,5 @@ public class Lab_100 {
         super.Home();
         System.out.println(super.gold);
     }
+
   }
