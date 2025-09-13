@@ -4,6 +4,7 @@ public class Lab_107_Multiple_Inheritance_Solved {
     public static void main(String[] args) {
     Child1 child1= new Child1();
     child1.Money();
+    child1.m1();
     }
 }
 class Child1 implements Mother,Father1{
@@ -21,7 +22,7 @@ class Child1 implements Mother,Father1{
 
     @Override
     public void m1() {
-
+        System.out.println("has 2 Acr Land");
     }
 }
 
@@ -33,4 +34,8 @@ class Child1 implements Mother,Father1{
      void Money();
      void f1();
 
+
+     default void ff (){
+         System.out.println("This is only allowed");
+     }
     }
