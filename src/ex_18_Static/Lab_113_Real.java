@@ -43,7 +43,7 @@ public class Lab_113_Real {
 
      }
     static void doAssignment(){//
-          // System.out.println(Phone);// Static Methodvariable Can't access the non static variable
+          // System.out.println(Phone);// Static Metho dvariable Can't access the non static variable
         System.out.println("Do Assignment");
     }
  }
