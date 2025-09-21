@@ -28,3 +28,5 @@ public class  Lab_116_P2 {
             return this.locater;
         }
         }
+        // Property reader - can read the external file -Collection Framework
+//    data properties   key & value
