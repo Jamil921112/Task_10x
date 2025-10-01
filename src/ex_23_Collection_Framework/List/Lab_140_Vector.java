@@ -1,25 +1,33 @@
 package ex_23_Collection_Framework.List;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Vector;
+import java.util.*;
 
 public class Lab_140_Vector {
     public static void main(String[] args) {
         Vector v = new Vector();
-          v.add("arshad");
-          v.add("jamil");
-          v.size();
-          v.contains("dutta");
-          v.remove("jamil");
-          v.add("jamil");
-          v.add(123);
+        v.add("arshad");
+        v.add("jamil");
+        v.size();
+        v.contains("dutta");
+        v.remove("jamil");
+        v.add("jamil");
+      //  v.add(123);
         System.out.println(v.size());
 
         System.out.println(v);
-       // Vector and arrayList are similaronly thing is vector is
+        // Vector and arrayList are similaronly thing is vector is
         // thread safe and synchronized
-
+        System.out.println("------");
+        Iterator iterator = v.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+        System.out.println("-------");
+        // Extra Enumeration
+        Enumeration<String> enumeration = v.elements();
+        while (enumeration.hasMoreElements()) {
+            System.out.println(enumeration.nextElement());
+        }
     }
 
     public static class Lab_Nested_Arraylist {
